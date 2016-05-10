@@ -97,11 +97,11 @@ DATABASES = {
 #    }
     'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'wagtail_database',
-            'USER': 'db_user',
-            'PASSWORD': '2B0rn0t2b!',
-            'HOST': 'mydbinstance.abcdefghijkl.us-west-2.rds.amazonaws.com',
-            'PORT': '3306',
+            'NAME': os.environ['wagtail_database'],
+            'USER': os.environ['db_user'],
+            'PASSWORD': os.environ['2B0rn0t2b!'],
+            'HOST': os.environ['mydbinstance.abcdefghijkl.us-west-2.rds.amazonaws.com'],
+            'PORT': os.environ['3306'],
         }
 }
 
