@@ -100,7 +100,7 @@ DATABASES = {
             'NAME': 'wagtail_database',
             'USER': 'db_user',
             'PASSWORD': '2B0rn0t2b!',
-            'HOST': 'mydbinstance.abcdefghijkl.us-west-2.rds.amazonaws.com',
+            'HOST': 'my-db-instance.cn03qarihltn.us-west-2.rds.amazonaws.com',
             'PORT': '3306',
         }
 }
