@@ -131,16 +131,11 @@ Stay up to date on news and events taking place at the Rutgers Institute for Tra
 
 {% endblock %}
 
-        <!-- Page Content -->
-        <div class="container">
-
-
-
-        {% block extra_js %}
-        <!-- Script to Activate the Carousel -->
-        <script>
-        $('.carousel').carousel({
-            interval: 5000 //changes the speed
-        });
-        </script>
-        {% endblock %}
+{% block extra_js %}
+<!-- Script to Activate the Carousel -->
+<script>
+$('.carousel').carousel({
+    interval: 5000 //changes the speed
+});
+</script>
+{% endblock %}
